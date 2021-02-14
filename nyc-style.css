@@ -1,0 +1,70 @@
+body { background-color:black}
+.heading {
+color: black;
+background-color: #fcba03;
+border: 2px solid lightblue;
+font-style: italic;
+font-family: sans-serif;
+font-size: 60px;
+font-weight: bold;
+font-stretch:expanded;
+text-align: center;
+text-shadow: 10px 10px 30px yellow;
+box-shadow: 10px 10px 30px orange;
+/* margin-top: 30px; margin-right: auto; margin-bottom: auto; margin-left: auto; */
+margin: 30px auto 30px auto;
+padding: 10px 20px;
+width: 85%;  /* height: 80%; */
+}
+
+.block{
+  width: 95%; height:250px;
+  margin-right: auto;
+  margin-left: auto;
+  border:2px solid orange;
+}
+.block img{width: 68%;
+height:200px;
+margin-bottom: 10px;
+margin-left: 10px;
+border:1px solid white;
+box-shadow: 10px 10px 30px white;
+border-radius: 10px;
+}
+.sub-block1
+{
+  height: 95%;
+  color: orange;
+  font-style: italic;
+  font-family: serif;
+  font-weight: 300;
+  text-align: justify;
+  margin: 2% 1% 2% 1%;
+
+  width: 30%;
+  float: left;
+}
+.text{
+  color: Orange;
+  text-align:center;
+  border: 1px solid white;
+}
+
+.text{
+  margin-right:70px;
+}
+
+.bar {
+  background-color: #ff9d00;
+  font-style: oblique;
+  font-family: fantasy;
+  width: 100%;
+  margin-bottom: 10%
+}
+.bar a {
+  display:block;
+  color: black;
+  text-align:center;
+  padding: 5px 5px;
+  font-size: 15px;
+}
