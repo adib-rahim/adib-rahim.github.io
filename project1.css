@@ -1,0 +1,193 @@
+/* Style for top left and right image */
+#top {
+  width: 100%;
+  height: 100px;
+}
+
+#top .topl,
+#top .topr {
+  width: 8%;
+}
+
+#top .topl {
+  float: left;
+}
+
+#top .topr {
+  float: right;
+}
+
+/* Stlying for the overview paragrpah for iceland */
+
+.overview h1 {
+  text-align: center;
+}
+
+/* Styling for the biggest pink container */
+.big {
+  width: 95%;
+  height: 550px;
+  border: 2px solid black;
+  background-color: lightpink;
+  color: white;
+}
+
+.big .ptitle {
+  padding: 5px;
+  font-weight: 500;
+}
+
+/* the border represented in the pink box */
+.border {
+  width: 85%;
+  height: 500px;
+  margin: auto;
+}
+
+/* small container for first figure */
+
+.small1 {
+  width: 75%;
+  height: 230px;
+  margin: auto;
+}
+
+.border .small1 figure {
+  margin-top: 0;
+  width: 31%;
+  height: 210px;
+  float: left;
+}
+
+.border .small1 img {
+  border: 1px solid purple;
+  padding-top: 0px;
+  width: 80%;
+  height: 200px;
+}
+
+.small1 ul {
+  padding-top: 30px;
+  width: 90%;
+  height: 200px;
+}
+
+.small1 li {
+  font-size: 18px;
+  list-style: none;
+}
+
+/* stlying for the 2nd cointainer containing bottom right image in pink box*/
+.sub2 {
+  width: 75%;
+  margin: auto;
+  height: 230px;
+}
+
+.sub2 figure {
+  width: 30%;
+  float: right;
+}
+
+.border .sub2 img {
+  border: 1px solid purple;
+  width: 80%;
+}
+
+.border .sub2 p {
+  width: 50%;
+  float: left;
+  font-size: 18px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+/*Styling for the news section*/
+
+.news p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.news .news-title {
+  margin-top: 10px;
+}
+
+.news .p {
+  padding-left: 20px;
+}
+
+/*Styling for the table*/
+.table h3 {
+  margin-bottom: 0;
+}
+
+.table table {
+  margin-top: 0px;
+  border: 2px solid black;
+}
+
+th,
+td {
+  border: white;
+}
+
+.pink-box {
+  background-color: pink;
+}
+
+.green {
+  background-color: lightgreen;
+  text-align: center;
+}
+
+/*Styling for Contact*/
+
+.contact ul {
+  margin-left: 120px;
+}
+
+.contact li {
+  list-style: none;
+  padding: 20px;
+}
+
+.contact .phone {
+  list-style-image: url("phone.png");
+}
+
+.contact .email {
+  padding-right: 100px;
+  list-style-image: url("email.png");
+}
+
+.contact .instagram {
+  list-style-image: url("instagram.png");
+}
+
+/* Styling for the footer */
+
+.bottom {
+  width: 100%;
+}
+
+.bottom ul {
+  font-size: 15px;
+
+  width: 30%;
+  margin: auto;
+}
+
+.bottom li {
+  list-style: none;
+  display: inline;
+}
+
+.bottom span {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.bottom p {
+  text-align: center;
+}

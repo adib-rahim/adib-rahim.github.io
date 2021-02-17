@@ -1,0 +1,89 @@
+body{
+  background-color: #adadad;
+}
+.heading {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bigcontainer {
+  margin: 20px 20px 20px 25px;
+  width: 100%;
+  height: 300px;
+}
+
+.hiking_sub {
+  margin-left: 2px;
+  margin-right: 4px;
+  float: left;
+  width: 30%;
+  height: 90%;
+}
+.hiking_sub img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+.hiking_sub_p {
+  margin-left: 2px;
+  float: left;
+  background-color: white;
+  border: 2px solid blue;
+  width: 30%;
+  height: 89%;
+
+}
+.hiking_sub_p p {
+  margin: 36px;
+  font-size: 17px;
+  text-align: center;
+}
+.northern_sub {
+  margin-left: 2px;
+  float: left;
+  background-color: white;
+  border: 2px solid blue;
+  overflow: hidden;
+  width: 30%;
+  height: 89%;
+}
+.northern_sub p {
+  margin: 36px 47px auto 60px;
+  font-size: 17px;
+  text-align: left;
+}
+
+
+.paragraph {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.bottom ul {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bottom ul li {
+  display: inline-block;
+}
+
+.bottom li a {
+  padding: 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bottom li span {
+  color: black;
+  padding: 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.very {
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif
+}
