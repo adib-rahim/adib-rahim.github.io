@@ -24,7 +24,7 @@ var f = 86;
 
 const convertF = ((f - 32) * 5) / 9;
 
-console.log(f + "Farenhiet", c + "Celcius");
+console.log(f + "Farenheit", c + "Celcius");
 
 // Basketball Average
 
