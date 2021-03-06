@@ -1,0 +1,160 @@
+body {
+    background-color: lightskyblue;
+}
+
+.container {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.product {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin: auto auto auto 12%;
+}
+
+.sub {
+    border: 1.5px solid blue;
+    height: 100%;
+    padding-bottom: 30%;
+}
+
+.sub img {
+    width: 50%;
+    margin: 10% auto auto 26%;
+}
+
+.sub p {
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.sub a {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    padding: 4%;
+    margin-left: 31%;
+}
+
+.modal1 {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(12, 68, 152, 0.797);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal1:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.jupiter {
+    position: relative;
+    width: 60%;
+    background-color: white;
+    margin: 3% auto auto auto;
+    height: 80%;
+}
+
+.jupiter h2 {
+    background-color: deeppink;
+    color: white;
+    position: absolute;
+    font-size: 2vw;
+    margin: 0%;
+    width: 98%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+.jupiter p {
+    background-color: orange;
+    font-size: 1.1vw;
+    position: absolute;
+    margin: 12% 2% auto 2%;
+    padding: 3%;
+}
+
+
+.jupiter a {
+    background-color: orange;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    bottom: 10%;
+    left: 80%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 1%;
+}
+
+/*Code for 2nd modal window */
+
+.modal2 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(2, 172, 133, 0.673);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal2:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.saturn {
+    position: relative;
+    width: 60%;
+    height: 80%;
+    background-color: black;
+    margin: 3% auto auto auto;
+}
+
+.saturn h2 {
+    background-color: deeppink;
+    color: white;
+    position: absolute;
+    font-size: 2vw;
+    margin: 0%;
+    width: 98%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+.saturn p {
+    background-color: red;
+    font-size: 1.1vw;
+    position: absolute;
+    margin: 12% 2% auto 2%;
+    padding: 3%;
+}
+
+.saturn a {
+    background-color: red;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    bottom: 10%;
+    left: 80%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 1%;
+}
