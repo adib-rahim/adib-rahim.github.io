@@ -1,0 +1,31 @@
+body { 
+    background-color: fuchsia;
+}
+
+#container
+{
+    background-color:hotpink;
+    border: 5px solid white;
+    height: 275px;
+    width:750px;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    color:white;
+}
+
+#input{
+    width:100px;
+    margin:25px auto;
+
+}
+
+#btn {
+    margin: 25px auto ;
+
+}
+
+
+
