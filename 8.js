@@ -10,7 +10,7 @@ switch (meal) {
     console.log("pasta");
     break;
     default
-    console.log("No food available :()");
+    console.log("No food available");
 }
 
 
