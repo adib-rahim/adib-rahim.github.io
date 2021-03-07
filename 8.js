@@ -9,7 +9,7 @@ switch (meal) {
   case "dinner":
     console.log("pasta");
     break;
-    default
+    default:
     console.log("No food available");
 }
 
